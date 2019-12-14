@@ -12,6 +12,15 @@
   function draw() {
     background(250, 215, 150);
     fill(180, 136, 47);
+
+    // OPTION ONE: ADD A POINTLIGHT
+    pointLight(255, 255, 255, 50, -100, 150); 
+
+    // OPTION TWO: CHANGE OVER TIME
+    fill(Math.random() * 180, Math.random() * 136, Math.random() * 47); 
+
+    // OPTION THREE: CHANGE THE CANVAS BACKGROUND (SEE main.css FILE)
+    
     noStroke();
     sphere(100);
     erase();

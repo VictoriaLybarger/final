@@ -12,3 +12,7 @@ body{
     background-color: rgb(255, 193, 159);
     color: rgb(165, 42, 42);
 }
+
+canvas {
+    background: linear-gradient(#af7, #730); 
+}
